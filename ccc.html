@@ -9,33 +9,65 @@
     <link rel="stylesheet" href="css/animate.css"/>
   </head>
   <body>
+    <div style="overflow: hidden;height: 50px;">
+
+      <nav class="demo">
+        <a href="#" class="brand">
+          <img class="logo" src="images/CCC.png" />
+          <span>Colombiano Compra Colombiano</span>
+        </a>
+
+        <!-- responsive-->
+        <input id="bmenub" type="checkbox" class="show">
+        <label for="bmenub" class="burger pseudo button">menu</label>
+
+        <div class="menu">
+          <a href="ccc.html" class="pseudo button icon-picture">Inicio</a>
+          <a href="#nosotros" class="pseudo button icon-picture">Nosotros</a>
+          <a href="#" class="pseudo button icon-picture">Categorías</a>
+          <a href="#" class="pseudo button icon-picture">Nuestras tiendas</a>
+          <a href="#contacto" class="pseudo button icon-picture">Contacto</a>
+          <a href="#" class="button icon-puzzle">Iniciar Sesión</a>
+        </div>
+      </nav>
+    </div>
     <section id="portada" class="portada background">    <!-- portada -->
-      <header id="header" class="header" "contenedor">   <!-- header -->
-        <figure class="logotipo"> <!-- logotipo -->
-          <img src="images/CCC.png" width="119" height="84" class="logo" alt="Logo"/>
-        </figure>
-        <nav class="menu1"> <!-- menu -->
-          <ul>
-            <li>
-              <a href="index.html">Home</a>
-            </li>
-            <li>
-              <a href="#información">Información</a>
-            </li>
-            <li>
-              <a href="comunidad.html">Comunidad</a>
-            </li>
-            <li>
-              <a href="#footer">Contacto</a>
-            </li>
-          </ul>
-        </nav>
+      <header id="header" class="header">   <!-- header -->
       </header>
       <div class="contenedor animated fadeIn">
         <h1 class="titulo">Se parte del cambio</h1>    <!-- titulo -->
         <h3 class="resumen">Descubre y apoya a tu páis.</h3>   <!-- resumen -->
-        <button class="boton">Más información</button>    <!-- boton -->
+        <a href="#nosotros">
+          <button class="boton">Más información</button> <!-- boton -->
+        </a>
       </div>
+    </section>
+    <section id="nosotros" class="background2">
+    </section>
+    <section class="background3">
+        <footer id=contacto class="footer">
+        <div class="contenedor">
+          <div class= "contacto">
+            <img src="images/CCC.png" class="logotipo" width="400">
+            <a href="tel:+573125809428"><strong>Telefono: </strong><span>3125809428</br></span></a>
+            <a href="mailto:colombianocompracolombiano@gmail.com"><strong>E-mail: </strong><span>colombianocompracolombiano@gmail.com</span></a>
+          </div>
+          <form class="formulario">
+            <div class="col1">
+              <label for="nombre">Nombre</label>
+              <input type="text" required id="nombre" name="nombre"/>
+              <label for="email">E-mail</label>
+              <input type="email" required id="email" name="email"/>
+            </div>
+            <div class="col2">
+              <label for="asunto">Asunto</label>
+              <textarea name="asunto" id="asunto" cols="30" rows="7"></textarea>
+              <input type="submit" value="Enviar" class="boton enviar"/>
+            </div>
+          </form>
+        </div>
+      </footer>
+        <div class="firma"> <h3>Made in Colombia with <3 by WebDream, 2018 </h3></div>
     </section>
   </body>
 </html>
