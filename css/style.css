@@ -96,6 +96,7 @@ body, html{
 }
 
 .boton {
+  margin-top: 20px;
   margin-bottom: 70px;
   border-radius: 20px;
   border: none;
@@ -117,6 +118,40 @@ body, html{
   margin-top: 0;
 }
 
+/*
+================================================================================
+                                  INTRODUCCION
+================================================================================
+*/
+
+.corruptos{
+  float: right;
+  height: 300px;
+}
+
+.imghorizontal{
+
+  text-decoration: none;
+  float: left;
+  width: 25%;
+  padding: 30px;
+  text-align: center;
+
+}
+
+.compra{
+  float: right;
+  height: 180px;
+}
+
+.emprendertexto{
+  margin-left: 100px;
+}
+
+.emprender{
+  float: left;
+  height: 180px;
+}
 
 /*
 ================================================================================
