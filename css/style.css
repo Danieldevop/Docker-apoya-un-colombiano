@@ -4,10 +4,6 @@
 ================================================================================
 */
 
-.wow{
-  visibility: hidden;
-}
-
 .contenedor{
   max-width: 800px;
   margin: auto;
@@ -103,7 +99,7 @@ nav {
 .boton {
   margin-top: 20px;
   margin-bottom: 70px;
-  border-radius: 20px;
+  border-radius: 25px;
   border: none;
   background: #D3082A;
   padding: 8px 15px;
@@ -246,10 +242,6 @@ nav {
   margin-bottom: 5px;
 }
 
-.boton.enviar{
-  margin-top: 15px;
-}
-
 .footer .contenedor {
   display: flex;
   justify-content: space-between;
@@ -266,35 +258,6 @@ nav {
 
 .col2{
   align-items: flex-start;
-}
-
-table{
-  width: 100%;
-  margin: 50px 0;
-}
-
-th{
-  background: #24305E;
-  color: white;
-  padding: 10px 20px;
-  text-align: left;
-}
-
-td{
-  padding: 15px;
-}
-
-table, td, th{
-  border: 1px solid #24305E;
-  border-collapse: collapse;
-}
-
-input, textarea{
-  outline: 0;
-}
-
-input:focus, textarea:focus {
-  background: lightgray;
 }
 
 .contacto{
