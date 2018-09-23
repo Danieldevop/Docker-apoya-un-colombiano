@@ -226,14 +226,6 @@ nav {
 ================================================================================
 */
 
-
-.formulario{
-  color: white;
-  display: flex;
-  width: 400px;
-  padding: 50px 10px;
-}
-
 .formulario label{
   margin-bottom: 10px;
 }
@@ -277,7 +269,7 @@ nav {
 
 .contacto a{
   text-decoration: none;
-  color: white;
+  color: black;
 }
 
 .datos{
@@ -294,7 +286,7 @@ text-align: center;
   text-align: center;
   bottom: 0px;
   width: 100%;
-  color: white;
+  color: black;
   margin-top: 185px;
   margin-bottom: 0px;
 }
