@@ -124,9 +124,15 @@ body, html{
 ================================================================================
 */
 
+.secciones{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
 .corruptos{
   float: right;
   height: 300px;
+  border-radius: 20px;
 }
 
 .imghorizontal{
@@ -136,22 +142,41 @@ body, html{
   width: 25%;
   padding: 30px;
   text-align: center;
+  margin-top: 30px;
+  margin-bottom: 30px;
 
 }
 
 .compra{
   float: right;
   height: 180px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .emprendertexto{
-  margin-left: 100px;
+  margin-left: 250px;
 }
 
 .emprender{
   float: left;
   height: 180px;
+  border-radius: 15px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
+
+.categorias{
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+
+.categorias2{
+  margin-bottom: 100px;
+}
+
+
 
 /*
 ================================================================================
