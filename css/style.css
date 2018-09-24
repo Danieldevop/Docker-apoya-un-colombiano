@@ -5,7 +5,7 @@
 */
 
 .contenedor{
-  max-width: 800px;
+  max-width: 1440px;
   margin: auto;
   /* position: relative; */
 }
@@ -84,11 +84,16 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  height: 600px;
   background-image: url('../images/cucuta.png');
-  width: 1500px;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 100px;
+}
+
+.container_text{
+    margin-left: 100px;
 }
 
 .portada {
@@ -102,18 +107,13 @@ nav {
 .boton {
   margin-top: 20px;
   margin-bottom: 70px;
-  border-radius: 25px;
-  border: none;
-  background: #D3082A;
-  padding: 8px 15px;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
+  font-size: 20px;
 }
 
 .titulo {
   color: white;
-  font-size: 89px;
+  font-size: 80px;
+  text-align: left;
   padding-top: 130px;
 
 }
@@ -127,17 +127,24 @@ nav {
                                   INTRODUCCION
 ================================================================================
 */
-
 .secciones{
   margin-top: 30px;
   margin-bottom: 30px;
 }
 
-.corruptos{
+.sabias_que_margin {
+    padding-right: 50px;
+    padding-left: 40px;
+}
+.sabias_que_margin > h1 {
+  text-align: center;
+  color: #FE5864;
+}
+/*.corruptos{
   float: right;
   height: 300px;
   border-radius: 20px;
-}
+} */
 
 .bubble{
     background: #fff;
