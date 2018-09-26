@@ -5,7 +5,7 @@
 */
 
 .contenedor{
-  max-width: 800px;
+  max-width: 1440px;
   margin: auto;
   /* position: relative; */
 }
@@ -28,7 +28,7 @@ body, html{
 ================================================================================
 */
 
-/**Logo CCC*/
+
 /*
 nav {
   position: absolute;
@@ -84,11 +84,16 @@ nav {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  background-image: url('../images/cucuta.jpg');
-  width: 1500px;
+  height: 600px;
+  background-image: url('../images/cucuta.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  margin-bottom: 100px;
+}
+
+.container_text{
+    margin-left: 100px;
 }
 
 .portada {
@@ -102,18 +107,13 @@ nav {
 .boton {
   margin-top: 20px;
   margin-bottom: 70px;
-  border-radius: 25px;
-  border: none;
-  background: #D3082A;
-  padding: 8px 15px;
-  color: white;
-  font-size: 18px;
-  cursor: pointer;
+  font-size: 20px;
 }
 
 .titulo {
   color: white;
-  font-size: 89px;
+  font-size: 80px;
+  text-align: left;
   padding-top: 130px;
 
 }
@@ -128,16 +128,15 @@ nav {
 ================================================================================
 */
 
-.secciones{
-  margin-top: 30px;
-  margin-bottom: 30px;
+.sabias_que_margin {
+    padding-right: 50px;
+    padding-left: 40px;
+}
+.sabias_que_margin > h1 {
+  text-align: center;
+  color: #FE5864;
 }
 
-.corruptos{
-  float: right;
-  height: 300px;
-  border-radius: 20px;
-}
 
 .bubble{
     background: #fff;
@@ -158,30 +157,11 @@ nav {
 
 }
 
-.compra{
-  float: right;
-  height: 180px;
-  border-radius: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
+.desarrollar_el_pais{
+  text-align: center;
+  color: #7F2C32;
 }
 
-.ciudad{
-  position: relative;
-  top: -30px;
-}
-
-.emprendertexto{
-  margin-left: 250px;
-}
-
-.emprender{
-  float: left;
-  height: 180px;
-  border-radius: 15px;
-  margin-top: 20px;
-  margin-bottom: 20px;
-}
 
 .categorias{
   margin-top: 100px;
