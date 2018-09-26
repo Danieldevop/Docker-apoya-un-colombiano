@@ -162,31 +162,12 @@ nav {
   color: #7F2C32;
 }
 
+/*
+================================================================================
+                                  CATEGORIAS
+================================================================================
+*/
 
-.categorias{
-  margin-top: 100px;
-  margin-bottom: 50px;
-}
-
-.categorias2{
-  margin-bottom: 100px;
-}
-
-.tipos{
-
-}
-
-.cuadrado{
-  border-style: solid;
-    border-width: 2px;
-    border-color: red;
-    padding: 2px;
-    margin-top: 5px;
-    margin-bottom: 2px;
-    border-radius: 5px;
-    text-align: center;
-    margin: 5px;
-}
 
 /*
 ================================================================================
@@ -267,4 +248,8 @@ text-align: center;
   color: grey;
   margin-top: 185px;
   margin-bottom: 0px;
+}
+
+.webdragon{
+  color: red;
 }
