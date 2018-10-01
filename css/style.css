@@ -28,47 +28,15 @@ body, html{
 ================================================================================
 */
 
-
 /*
 nav {
   position: absolute;
 }
 */
 
-.logo{
-  margin-left: 0;
-}
-
-
-.menu1 {
-  font-size: 24px;
-  display: inline-block;
-  position: absolute;
-  right: 0;
-}
-
-/* otros */
-
-.menu1 li{
-  display: inline-block;
-  margin-left: 30px;
-}
-
-.menu1 li: before{
-  content: '∘';
-  font-size: 50px;
-  line-height: 20px;
-  color: black;
-}
-
-.menu1 a{
-  text-decoration: none;
-  color: black;
-  margin: 10px 10px 10px 0;
-}
-
-.header{
-  position: relative;
+.nav{
+  overflow: hidden;
+  height: 50px;
 }
 
 /*
@@ -97,9 +65,7 @@ nav {
 }
 
 .portada {
-  /* padding: 20px; */
   color: white;
-  /* height: 800px; */
   text-decoration: none;
 
 }
@@ -162,12 +128,19 @@ nav {
   color: #7F2C32;
 }
 
+.aqui_tu_podras{
+  padding-top: 110px;
+}
+
 /*
 ================================================================================
                                   CATEGORIAS
 ================================================================================
 */
 
+.cultura{
+  height: auto;
+}
 
 /*
 ================================================================================
@@ -175,41 +148,8 @@ nav {
 ================================================================================
 */
 
-.formulario label{
-  margin-bottom: 10px;
-}
-
-#nombre{
-  margin-bottom: 5px;
-}
-
-.footer .contenedor {
-  display: flex;
-  justify-content: space-between;
-}
-
-.col1, .col2 {
-  display: flex;
-  flex-direction: column;
-}
-
-.col1{
-  margin-right: 15px;
-}
-
-.col2{
-  align-items: flex-start;
-}
-
 .contacto{
-  display: flex;
-  width: 300px;
-  flex-wrap: wrap;
-  align-items: center
-}
-
-.contacto img{
-  display: block;
+  margin-top: 50px;
 }
 
 .contacto strong{
@@ -221,13 +161,28 @@ nav {
   color: black;
 }
 
-.datos{
-text-align: center;
-}
-
 .logotipo{
   display: inline-block;
   width: 250px;
+}
+
+.centrar{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* position: relative; */
+}
+
+.centrar2{
+  /* position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); */
+  width: 80%;
+}
+
+textarea{
+  resize: none;
 }
 
 /*
@@ -246,10 +201,68 @@ text-align: center;
   bottom: 0px;
   width: 100%;
   color: grey;
-  margin-top: 185px;
+  margin-top: 90px;
   margin-bottom: 0px;
 }
 
 .webdragon{
   color: red;
+}
+
+
+/*
+================================================================================
+                                  RESPONSIVE
+================================================================================
+*/
+
+
+@media screen and (max-width: 800px){
+
+  .nav{
+    height: auto;
+  }
+
+  .titulo{
+      font-size: 45px;
+      margin-top: 30px;
+    }
+
+  .resumen{
+      font-size: 18px;
+    }
+
+  .portada{
+    height: auto;
+  }
+
+  .portada .boton{
+    margin-bottom: 30px;
+  }
+
+  .background{
+    height: auto;
+  }
+
+  .imagen{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+  }
+}
+
+@media screen and (max-width: 1000px){
+
+  .cultura{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
+    border-radius: 10px;
+  }
+}
+
+
 }

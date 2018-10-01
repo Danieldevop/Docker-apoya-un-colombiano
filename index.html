@@ -20,7 +20,7 @@
 
   </head>
   <body>
-    <div style="overflow: hidden;height: 50px;">
+    <div class="nav">
 
       <nav class="demo">
         <a href="#" class="brand">
@@ -28,15 +28,14 @@
           <span>Colombiano Compra Colombiano</span>
         </a>
 
-        <!-- responsive-->
+        <!--responsive-->
         <input id="bmenub" type="checkbox" class="show">
-        <label for="bmenub" class="burger pseudo button">Menu</label>
+        <label for="bmenub" class="burger pseudo button">&#9776;</label>
 
         <div class="menu">
-          <a href="ccc.html" class="pseudo button icon-picture">Inicio</a>
+          <a href="index.html" class="pseudo button icon-picture">Inicio</a>
           <a href="#nosotros" class="pseudo button icon-picture">Nosotros</a>
-          <a href="#" class="pseudo button icon-picture">Categorías</a>
-          <a href="#contacto" class="pseudo button icon-picture">Escríbenos</a>
+          <a href="#categorias" class="pseudo button icon-picture">Categorías</a>
           <a href="#" data-tooltip="Próximamente" class="button icon-puzzle">Iniciar Sesión</a>
         </div>
       </nav>
@@ -56,7 +55,7 @@
 
       <section class="wow bounceInUp">
 
-        <div class="flex two">
+        <div class="flex one two-800">
 
           <div class="sabias_que_margin">
 
@@ -72,7 +71,7 @@
 
           </div>
           <div>
-            <img  class="flex" src="./images/corruption.png" width="" alt="politics">
+            <img class="flex imagen" src="./images/mano.jpg" width="" alt="politics">
           </div>
         </div>
 
@@ -123,9 +122,9 @@
 
           </div>
 
-             <div class="flex two">
+             <div class="flex one two-800">
 
-                <img class="flex" src="images/onlineapp.jpg"/>
+                <img class="flex imagen" src="images/onlineapp.jpg"/>
 
                 <div class="sabias_que_margin">
 
@@ -150,11 +149,11 @@
         </section>
         <section>
 
-          <div class="flex two">
+          <div class="flex one two-800">
 
             <div class="sabias_que_margin">
 
-                <h1 class="wow fadeIn">Aquí tu podrás…</h1>
+                <h1 class="wow fadeIn aqui_tu_podras">Aquí tu podrás…</h1>
 
                 <ul class="wow fadeIn">
                     <li>Adquirir productos de excelente calidad, a buen precio y hecho 100% en Colombia.</li>
@@ -164,7 +163,7 @@
             </div>
 
             <div class="wow fadeIn">
-                <img class="flex" src="images/compra.png" width=""/>
+                <img class="flex imagen" src="images/compra.png" width=""/>
             </div>
 
           </div>
@@ -172,13 +171,13 @@
         </section>
         <section>
 
-          <div class="flex two">
+          <div class="flex one two-800">
 
             <div class="wow fadeIn">
-                <img class="flex" src="images/terraza.jpg" width=""/>
+                <img class="flex imagen" src="images/terraza.jpg" width=""/>
             </div>
 
-            <div class="sabias_que_margin">
+            <div class="sabias_que_margin aqui_tu_podras">
 
                 <h1 class="wow fadeIn">Aquí los emprendedores podrán…</h1>
 
@@ -192,9 +191,9 @@
         </section>
         <section>
 
-          <div class="flex two">
+          <div class="flex one two-800">
 
-            <div class ="sabias_que_margin">
+            <div class ="sabias_que_margin aqui_tu_podras">
 
                 <h1 class="wow fadeIn">Aquí los inversionistas podrán…</h1>
 
@@ -205,57 +204,60 @@
             </div>
 
             <div class="wow fadeIn">
-                <img class="flex" src="images/ciudad.png" width=""/>
+                <img class="flex imagen" src="images/ciudad.png" width=""/>
             </div>
 
         </section>
-        <section>
+        <section id=categorias>
 
-          <div class="flex two">
+          <div class="flex one three-1000 center">
 
-            <div class="wow fadeIn">
-                <img class="flex wow fadeIn" src="images/art_culture.png" width=""/>
+            <div class="full two-third-1000">
+                <img class="flex wow fadeIn cultura" src="images/art_culture.png" width=""/>
             </div>
 
-            <div class = "sabias_que_margin">
+            <div class = "full third-1000 sabias_que_margin">
 
                 <h1 class="wow fadeIn">Categorias</h1>
 
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">grade</i> Lo más vendido</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">wc</i> Moda</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">palette</i> Artesanías</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">pets</i> Mascotas</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">local_pharmacy</i> Cuidado Personal</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">local_mall</i> Equipaje y Maletas</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">weekend</i> Hogar y Decoración</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">face</i> Bebes y Niños</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">local_dining</i> Alimentos y Bebidas</span>
-                  <span class="wow fadeIn button stack icon-picture"><i class="material-icons">devices_other</i> Otros productos</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">grade</i> Lo más vendido</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">wc</i> Moda</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">palette</i> Artesanías</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">pets</i> Mascotas</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">local_pharmacy</i> Cuidado Personal</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">local_mall</i> Equipaje y Maletas</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">weekend</i> Hogar y Decoración</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">face</i> Bebes y Niños</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">local_dining</i> Alimentos y Bebidas</span>
+                  <span class="wow fadeIn button stack"><i class="material-icons">devices_other</i> Otros productos</span>
 
             </div>
-        </section>
     </section>
-    <section>
-        <footer id=contacto class="footer">
-        <div class="contenedor">
-          <div class= "contacto">
-            <img src="images/CCC.png" class="logotipo" width="400">
-            <a href="tel:+573125809428"><strong>Telefono: </strong><span>3125809428</br></span></a>
-            <a href="mailto:colombianocompracolombiano@gmail.com"><strong>E-mail: </strong><span>colombianocompracolombiano@gmail.com</span></a>
+  </section>
+  <section>
+          <div class="flex one two-800">
+              <div class="centrar">
+                    <div class= "contacto sabias_que_margin centrar2">
+                        <img src="images/CCC.png" class="logotipo" width="400">
+                        <a href="https://api.whatsapp.com/send?phone=573506471747"><strong>Telefono: </strong><span>+57 3506471747</br></br></span></a>
+                        <a href="mailto:colombianocompracolombiano@gmail.com"><strong>E-mail: </strong><span>colombianocompracolombiano@hotmail.com</span></a>
+                    </div>
+              </div>
+              <div class="sabias_que_margin centrar">
+                <div class="centrar2">
+                    <b>Escríbenos!<b>
+                    <input class="stack" placeholder="Nombre" />
+                    <input class="stack" placeholder="Correo" />
+                    <textarea class="stack" placeholder="Mensaje"></textarea>
+                    <button class="stack"><i class="material-icons">send</i> Enviar</button>
+                </div>
+              </div>
           </div>
-          <div class="third">
-                <input class="stack" placeholder="Nombre" />
-                <input class="stack" placeholder="Correo" />
-                <textarea class="stack" placeholder="Mensaje"></textarea>
-                <button class="stack icon-paper-plane">Enviar</button>
-          </div>
-        </div>
-      </footer>
-    </section>
-    <section class="firma1">
+  </section>
+  <section class="firma1">
         <div class="firma2">
               <h4>Made in Colombia with ❤️ by <span class="wow flash"><a class="webdragon" href="https://www.webdragon.co">WebDragon</a></span>, 2018</h4>
         </div>
-    </section>
+  </section>
   </body>
 </html>
