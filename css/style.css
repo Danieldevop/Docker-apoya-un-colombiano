@@ -90,7 +90,7 @@ nav {
 
 /*
 ================================================================================
-                                  INTRODUCCION
+                                  INICIO
 ================================================================================
 */
 
@@ -101,6 +101,16 @@ nav {
 .sabias_que_margin > h1 {
   text-align: center;
   color: #FE5864;
+}
+
+.lista_sabias{
+  list-style: none;
+}
+
+.lista_sabias li:before{
+content: '\274C';
+margin-left: -20px;
+margin-right: 10px;
 }
 
 
