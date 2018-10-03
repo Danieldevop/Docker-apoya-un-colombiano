@@ -94,14 +94,37 @@ nav {
 ================================================================================
 */
 
+.madein{
+  width: 350px;
+}
+
+.muy_pronto{
+  padding-right: 50px;
+  padding-left: 40px;
+  text-align: center;
+  color: #7F2C32;
+  margin-bottom: 50px;
+}
+
+.donar{
+  background-color: blue;
+  padding-right: 50px;
+  padding-left: 40px;
+  text-align: center;
+  color: yellow;
+
+}
+
 .sabias_que_margin {
     padding-right: 50px;
     padding-left: 40px;
 }
 .sabias_que_margin > h1 {
+
   text-align: center;
   color: #FE5864;
 }
+
 
 .lista_sabias{
   list-style: none;
