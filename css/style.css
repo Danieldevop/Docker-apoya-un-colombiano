@@ -226,6 +226,11 @@ margin-right: 10px;
   padding-top: 150px;
 }
 
+.aunque {
+  text-align: center;
+}
+
+
 /*
 ================================================================================
                                   CATEGORIAS
@@ -636,13 +641,22 @@ textarea{
     font-size: 20px;
   }
 
-  .iconos img {
-    width: 100%;
-  }
-
   .desarrollar_el_pais {
     font-size: 12px;
   }
 
+  .imghorizontal{
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .elementos ,img {
+    width: 100%
+  }
+
+  .size {
+    width: 100px;
+  }
 
 }
