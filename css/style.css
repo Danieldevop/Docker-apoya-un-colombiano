@@ -5,7 +5,7 @@
 */
 
 .contenedor{
-  max-width: 1440px;
+  /* max-width: 1440px; */
   margin: auto;
   /* position: relative; */
 }
@@ -162,11 +162,12 @@ margin-left: -20px;
 margin-right: 10px;
 }
 
+/* ===============================MENU HORIZONTAL SIN EMBARGO==================== */
 
 .bubble{
     background: #fff;
     border-radius: 20px;
-    padding: 20px 0;
+    /* padding: 20px 0; */
     margin-bottom: 70px;
     margin-top: 70px;
     box-shadow: 0 5px 10px 5px rgba(28,28,39,0.1);
@@ -174,13 +175,31 @@ margin-right: 10px;
 
 .imghorizontal{
 
-  display: inline-block;
-  width: 24%;
+  width: 10%;
   text-align: center;
   margin-top: 30px;
   margin-bottom: 30px;
 
 }
+
+.iconos i{
+  font-size: 50px;
+}
+
+.elementos{
+  padding-top: 50px;
+}
+
+.simbolo{
+  padding-top: 70px;
+}
+
+.mejor_pais{
+  padding-top: 15px;
+  padding-right: 10px;
+}
+
+/* ================================================================================ */
 
 .desarrollar_el_pais{
   text-align: center;
@@ -340,7 +359,7 @@ textarea{
   }
 
   .contenedor {
-    max-width: 1140px;
+    /* max-width: 1140px; */
     margin: auto;
   }
 
@@ -387,7 +406,7 @@ textarea{
   }
 
   .contenedor {
-    max-width: 940px;
+    /* max-width: 940px; */
     margin: auto;
   }
 
@@ -493,6 +512,33 @@ textarea{
 
 }
 
-@media screen and (max-width: 575px) {
+@media screen and (max-width: 480px) {
+
+  .titulo{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 70px;
+    margin-top: 20px;
+
+  }
+
+  .contenedor{
+    text-align: center
+  }
+
+  .resumen{
+    font-size: 25px;
+  }
+
+  .portada .boton{
+    margin-top: 100px;
+    margin-bottom: 20px;
+    font-size: 25px;
+  }
+
+  .background{
+    height: 800px;
+  }
+
 
 }
