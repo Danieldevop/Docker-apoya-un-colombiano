@@ -638,7 +638,11 @@ textarea{
   }
 
   .iconos i {
-    font-size: 20px;
+    font-size: 40px;
+  }
+
+  .iconos img {
+    width: 20%;
   }
 
   .desarrollar_el_pais {
@@ -651,12 +655,19 @@ textarea{
     margin-bottom: 10px;
   }
 
-  .elementos ,img {
-    width: 100%
+  .size {
+    width: 300px;
+    margin: 0 auto;
   }
 
-  .size {
-    width: 100px;
+  .elementos {
+    padding-top: 10px;
   }
+
+  .simbolo {
+    padding-top: 0px;
+  }
+
+  /* CATEGORIAS */
 
 }
