@@ -447,7 +447,7 @@ textarea{
   }
 
   .img_culture {
-    margin-top: 150px;
+    margin-top: 90px;
   }
 
   /* Acerca de*/
@@ -537,6 +537,19 @@ textarea{
     margin-left: 0px;
     margin-top: 20px;
     margin-bottom: 40px;
+  }
+
+  .sabias_que_margin {
+    margin-top: 50px;
+    padding-right: 0px;
+    padding-left: 0px;
+    padding-right: 10px;
+  }
+
+  .img_culture {
+    padding-top: 80px;
+    padding-left: 0px;
+    margin: 0 auto;
   }
 
 }
@@ -669,5 +682,15 @@ textarea{
   }
 
   /* CATEGORIAS */
+
+  .sabias_que_margin {
+    margin-top: 10px;
+    padding-right: 0px;
+    padding-left: 0px;
+  }
+
+  .img_culture {
+    padding-top: 80px;
+  }
 
 }
