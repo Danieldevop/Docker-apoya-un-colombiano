@@ -1,127 +1,131 @@
 <!DOCTYPE html>
-<html lang="en" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title>Apoya un Colombiano</title>
+<html>
 
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+  <title>Apoya un Colombiano</title>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700" />
+  <link rel="stylesheet" href="https://unpkg.com/picnic">
+  <link rel="stylesheet" type="text/css" media="screen" href="css/style.css" />
+  <link rel="stylesheet" href="css/animate.css" />
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet" />
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU"
+    crossorigin="anonymous" />
 
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700">
-    <link rel="stylesheet" href="https://unpkg.com/picnic">
-    <link rel="stylesheet" type="text/css" media="screen" href="css/style.css"/>
-    <link rel="stylesheet" href="css/animate.css"/>
-    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+</head>
 
+<body class="contenedor" ondragstart="return false;" ondrop="return false;">
+  <div class="nav">
 
+    <nav class="demo">
+      <a href="index.html" class="brand">
+        <img class="logo" src="images/CCC.png" />
+        <span>Apoya un Colombiano</span>
+      </a>
 
-    <script src="js/wow.min.js"></script>
-              <script>
-                new WOW().init();
-              </script>
+      <!--responsive-->
+      <input id="bmenub" type="checkbox" class="show">
+      <label for="bmenub" class="burger pseudo button">&#9776;</label>
 
-  </head>
-  <body class="contenedor" ondragstart="return false;" ondrop="return false;">
-    <div class="nav">
-
-      <nav class="demo">
-        <a href="index.html" class="brand">
-          <img class="logo" src="images/CCC.png" />
-          <span>Apoya un Colombiano</span>
-        </a>
-
-        <!--responsive-->
-        <input id="bmenub" type="checkbox" class="show">
-        <label for="bmenub" class="burger pseudo button">&#9776;</label>
-
-        <div class="menu">
-          <a href="index.html" class="pseudo button icon-picture">Inicio</a>
-          <a href="categorias.html" class="pseudo button icon-picture">Categorías</a>
-          <a href="nosotros.html" class="pseudo button icon-picture">Nosotros</a>
-          <a href="#" data-tooltip="Próximamente" class="button icon-puzzle">Iniciar Sesión</a>
-        </div>
-      </nav>
+      <div class="menu">
+        <a href="index.html" class="pseudo button icon-picture">Inicio</a>
+        <a href="categorias.html" class="pseudo button icon-picture">Categorías</a>
+        <a href="nosotros.html" class="pseudo button icon-picture">Nosotros</a>
+        <a href="#" data-tooltip="Próximamente" class="button icon-puzzle">Iniciar Sesión</a>
+      </div>
+    </nav>
+  </div>
+  <section id="portada" class="portada background contenedor">
+    <!-- portada -->
+    <header id="header" class="header">
+      <!-- header -->
+    </header>
+    <div class="contenedor container_text animated fadeIn">
+      <h1 class="titulo">Sé parte del cambio</h1> <!-- titulo -->
+      <h3 class="resumen">Con un simple click, juntos podemos cambiar la historia de Colombia </h3> <!-- resumen -->
+      <a href="nosotros.html">
+        <button class="error boton">Más información</button> <!-- boton -->
+      </a>
     </div>
-    <section id="portada" class="portada background contenedor">    <!-- portada -->
-      <header id="header" class="header">   <!-- header -->
-      </header>
-      <div class="contenedor container_text animated fadeIn">
-        <h1 class="titulo">Sé parte del cambio</h1>    <!-- titulo -->
-        <h3 class="resumen">Con un simple click, juntos podemos cambiar la historia de Colombia </h3>   <!-- resumen -->
-        <a href="nosotros.html">
-          <button class="error boton">Más información</button> <!-- boton -->
-        </a>
-      </div>
-    </section>
+  </section>
 
-    <section>
+  <section>
 
-      <div class="flex one three-800 muy_pronto">
+    <div class="flex one three-800 muy_pronto">
 
-        <div class="two-third-800">
+      <div class="two-third-800">
 
-          <h1 class="wow fadeIn">MUY PRONTO</h1>
-          <h2 class="wow fadeIn">Aquí podrás adquirir productos 100% hechos en</h2>
-
-        </div>
-
-        <div class="third-800">
-            <img class="flex imagen madein" src="images/banderaco.png"/>
-        </div>
+        <h1 class="wow fadeIn">MUY PRONTO</h1>
+        <h2 class="wow fadeIn">Aquí podrás adquirir productos 100% hechos en</h2>
 
       </div>
 
-    </section>
+      <div class="third-800">
+        <img class="flex imagen madein" src="images/banderaco.png" />
+      </div>
 
-    <section class="donar_background">
-          <div class="donar_layer">
-              <h1 class="texto_donar">Por cada compra que realizes en ésta página... donamos el 10% a proyectos de educación
-              en zonas vulnerables</h1>
+    </div>
+
+  </section>
+
+  <section class="donar_background">
+    <div class="donar_layer">
+      <h1 class="texto_donar">Por cada compra que realizes en ésta página... donamos el 10% a proyectos de educación
+        en zonas vulnerables</h1>
+    </div>
+  </section>
+
+  <section class="margin_contact_section">
+    <hr width="90%">
+    <div class="flex one two-800">
+      <div class="flex one centrar">
+        <div class="contacto sabias_que_margin centrar2">
+          <img src="images/CCC.png" class="logotipo" width="40%">
+          <a href="https://api.whatsapp.com/send?phone=573506471747"><strong>Telefono: </strong><span>+57 3506471747</br></br></span></a>
+          <a href="mailto:colombianocompracolombiano@gmail.com"><strong>E-mail: </strong><span>colombianocompracolombiano@hotmail.com</span></a>
+        </div>
+        <div class="flex one three-600 social_icons">
+          <div class="">
+            <a href="#">
+              <i class="a fab fa-instagram"></i>
+            </a>
           </div>
-    </section>
-
-    <section class="margin_contact_section">
-            <hr width="90%">
-            <div class="flex one two-800">
-                <div class="flex one centrar">
-                      <div class= "contacto sabias_que_margin centrar2">
-                          <img src="images/CCC.png" class="logotipo" width="40%">
-                          <a href="https://api.whatsapp.com/send?phone=573506471747"><strong>Telefono: </strong><span>+57 3506471747</br></br></span></a>
-                          <a href="mailto:colombianocompracolombiano@gmail.com"><strong>E-mail: </strong><span>colombianocompracolombiano@hotmail.com</span></a>
-                      </div>
-                      <div class="flex one three-600 social_icons">
-                        <div class="">
-                          <a href="#">
-                            <i class="a fab fa-instagram"></i>
-                          </a>
-                        </div>
-                        <div class="">
-                          <a href="#">
-                            <i class="b fab fa-facebook"></i>
-                          </a>
-                        </div>
-                        <div class="">
-                          <a href="#">
-                            <i class="c fab fa-twitter"></i>
-                          </a>
-                        </div>
-                      </div>
-                </div>
-                <div class="sabias_que_margin centrar">
-                  <div class="centrar2">
-                      <b>Escríbenos!<b>
-                      <input class="stack" placeholder="Nombre" />
-                      <input class="stack" placeholder="Correo" />
-                      <textarea class="stack" placeholder="Mensaje"></textarea>
-                      <button class="stack"><i class="material-icons">send</i> Enviar</button>
-                  </div>
-                </div>
-            </div>
-    </section>
+          <div class="">
+            <a href="#">
+              <i class="b fab fa-facebook"></i>
+            </a>
+          </div>
+          <div class="">
+            <a href="#">
+              <i class="c fab fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="sabias_que_margin centrar">
+        <div class="centrar2">
+          <b>Escríbenos!<b>
+              <input class="stack" placeholder="Nombre" />
+              <input class="stack" placeholder="Correo" />
+              <textarea class="stack" placeholder="Mensaje"></textarea>
+              <button class="stack"><i class="material-icons">send</i> Enviar</button>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <section class="firma1">
-        <div class="firma2">
-              <h4>Made in Colombia with ❤️ by <span class="wow flash"><a class="webdragon" href="https://www.webdragon.co">WebDragon</a></span>, 2018</h4>
-        </div>
+    <div class="firma2">
+      <h4>Made in Colombia with ❤️ by <span class="wow flash"><a class="webdragon" href="https://www.webdragon.co">WebDragon</a></span>,
+        2018</h4>
+    </div>
   </section>
-  </body>
+
+  <script src="js/wow.min.js"></script>
+  <script>
+    new WOW().init();
+  </script>
+</body>
+
 </html>
