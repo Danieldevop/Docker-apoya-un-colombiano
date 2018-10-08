@@ -388,7 +388,7 @@ textarea{
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
   .cultura{
     display: block;
@@ -481,7 +481,7 @@ textarea{
   }
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px){
 
   .nav{
     height: auto;
@@ -554,7 +554,7 @@ textarea{
 
 }
 
-@media (max-width: 523px) {
+@media screen and (max-width: 523px) {
 
   .titulo{
     padding-top: 100px;
