@@ -4,21 +4,20 @@
 ================================================================================
 */
 
-.contenedor{
-  /* max-width: 1440px; */
+.contenedor {
   margin: auto;
-  /* position: relative; */
 }
 
 body {
   margin: 0px;
 }
 
-*{
+* {
   font-family: Roboto;
 }
 
-body, html{
+body,
+html {
   height: 100%;
 }
 
@@ -28,13 +27,7 @@ body, html{
 ================================================================================
 */
 
-/*
-nav {
-  position: absolute;
-}
-*/
-
-.nav{
+.nav {
   overflow: hidden;
   height: 50px;
 }
@@ -48,7 +41,7 @@ nav {
 
 /*Fondo para la portada*/
 
-.background{
+.background {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -59,8 +52,8 @@ nav {
   background-size: cover;
 }
 
-.container_text{
-    margin-left: 100px;
+.container_text {
+  margin-left: 100px;
 }
 
 .portada {
@@ -82,7 +75,8 @@ nav {
   padding-top: 130px;
 
 }
-.resumen{
+
+.resumen {
   font-size: 24px;
   margin-top: 0;
 }
@@ -93,11 +87,11 @@ nav {
 ================================================================================
 */
 
-.madein{
+.madein {
   width: 350px;
 }
 
-.muy_pronto{
+.muy_pronto {
   padding-top: 35px;
   padding-right: 50px;
   padding-left: 40px;
@@ -106,11 +100,11 @@ nav {
   margin-bottom: 0;
 }
 
-.muy_pronto h1{
+.muy_pronto h1 {
   font-size: 65px;
 }
 
-.muy_pronto h2{
+.muy_pronto h2 {
   font-size: 25px;
 }
 
@@ -142,39 +136,38 @@ nav {
 }
 
 .sabias_que_margin {
-    padding-right: 50px;
-    padding-left: 40px;
+  padding-right: 50px;
+  padding-left: 40px;
 }
-.sabias_que_margin > h1 {
+
+.sabias_que_margin>h1 {
 
   text-align: center;
   color: #FE5864;
 }
 
 
-.lista_sabias{
+.lista_sabias {
   list-style: none;
 }
 
-.lista_sabias li:before{
-content: '\274C';
-margin-left: -20px;
-margin-right: 10px;
+.lista_sabias li:before {
+  content: '\274C';
+  margin-left: -20px;
+  margin-right: 10px;
 }
 
 /* ===============================MENU HORIZONTAL SIN EMBARGO==================== */
 
-.bubble{
-    background: #fff;
-    border-radius: 20px;
-    /* padding: 20px 0; */
-    margin-bottom: 70px;
-    margin-top: 70px;
-    box-shadow: 0 5px 10px 5px rgba(28,28,39,0.1);
+.bubble {
+  background: #fff;
+  border-radius: 20px;
+  margin-bottom: 70px;
+  margin-top: 70px;
+  box-shadow: 0 5px 10px 5px rgba(28, 28, 39, 0.1);
 }
 
-.imghorizontal{
-
+.imghorizontal {
   width: 10%;
   text-align: center;
   margin-top: 30px;
@@ -182,47 +175,46 @@ margin-right: 10px;
 
 }
 
-.iconos i{
+.iconos i {
   font-size: 50px;
   font-size: 40px;
 }
 
-.elementos{
+.elementos {
   padding-top: 50px;
 }
 
-.simbolo{
+.simbolo {
   padding-top: 70px;
 }
 
-.mejor_pais{
+.mejor_pais {
   padding-top: 15px;
   padding-right: 10px;
 }
 
 /* ================================================================================ */
 
-.desarrollar_el_pais{
+.desarrollar_el_pais {
   text-align: center;
   color: #7F2C32;
 }
 
 /* ADAPTACIONES PARA CENTRAR LOS TEXTOS */
 
-.que_es{
+.que_es {
   padding-top: 80px;
 }
 
-.sabias{
+.sabias {
   padding-top: 50px;
 }
 
-
-.lo_haces{
+.lo_haces {
   padding-top: 100px;
 }
 
-.aqui_tu_podras{
+.aqui_tu_podras {
   padding-top: 150px;
 }
 
@@ -230,14 +222,13 @@ margin-right: 10px;
   text-align: center;
 }
 
-
 /*
 ================================================================================
                                   CATEGORIAS
 ================================================================================
 */
 
-.cultura{
+.cultura {
   height: auto;
 }
 
@@ -250,53 +241,49 @@ margin-right: 10px;
   margin-top: 50px;
 }
 
-.contacto{
+.contacto {
   margin-top: 50px;
 }
 
-.contacto strong{
+.contacto strong {
   display: block;
 }
 
-.contacto a{
+.contacto a {
   text-decoration: none;
   color: black;
 }
 
-.logotipo{
+.logotipo {
   display: inline-block;
   width: 250px;
 }
 
-.centrar{
+.centrar {
   display: flex;
   justify-content: center;
   align-items: center;
-  /* position: relative; */
 }
 
-.centrar2{
-  /* position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%); */
+.centrar2 {
   width: 80%;
 }
 
-textarea{
+textarea {
   resize: none;
 }
 
-.social_icons{
-    width: 30%;
-    margin-top: 30px;
-    font-size: 48px;
-    cursor: pointer;
+.social_icons {
+  width: 30%;
+  margin-top: 30px;
+  font-size: 48px;
+  cursor: pointer;
 }
 
 .social_icons a {
   color: inherit;
 }
+
 .social_icons .a:hover {
   color: #B82BA8;
 }
@@ -315,13 +302,12 @@ textarea{
 ================================================================================
 */
 
-}
-.firma1{
+.firma1 {
   background: #EFEFEF;
 }
 
-.firma2{
-  position:static;
+.firma2 {
+  position: static;
   text-align: center;
   bottom: 0px;
   width: 100%;
@@ -330,7 +316,7 @@ textarea{
   margin-bottom: 0px;
 }
 
-.webdragon{
+.webdragon {
   color: red;
 }
 
@@ -341,9 +327,9 @@ textarea{
 ================================================================================
 */
 
-@media (max-width: 1250px){
+@media (max-width: 1250px) {
 
-  .cultura{
+  .cultura {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -351,7 +337,7 @@ textarea{
     border-radius: 10px;
   }
 
-  .muy_pronto h1{
+  .muy_pronto h1 {
     font-size: 50px;
   }
 
@@ -388,9 +374,9 @@ textarea{
   }
 }
 
-@media (max-width: 1024px) {
+@media screen and (max-width: 1024px) {
 
-  .cultura{
+  .cultura {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -398,7 +384,7 @@ textarea{
     border-radius: 10px;
   }
 
-  .muy_pronto h1{
+  .muy_pronto h1 {
     font-size: 40px;
   }
 
@@ -456,19 +442,19 @@ textarea{
     padding-top: 0px;
   }
 
-  .img_a{
+  .img_a {
     margin-top: 50px;
   }
 
-  .img_b{
+  .img_b {
     margin-top: 150px;
   }
 
-  .img_c{
+  .img_c {
     margin-top: 10px;
   }
 
-  .img_d{
+  .img_d {
     margin-top: 30px;
   }
 
@@ -479,36 +465,37 @@ textarea{
   .sabias_que_margin h1 {
     font-size: 30px;
   }
+
 }
 
-@media (max-width: 800px){
+@media screen and (max-width: 800px) {
 
-  .nav{
+  .nav {
     height: auto;
   }
 
-  .titulo{
+  .titulo {
     font-size: 45px;
     margin-top: 30px;
   }
 
-  .resumen{
+  .resumen {
     font-size: 18px;
   }
 
-  .portada{
+  .portada {
     height: auto;
   }
 
-  .portada .boton{
+  .portada .boton {
     margin-bottom: 30px;
   }
 
-  .background{
+  .background {
     height: auto;
   }
 
-  .imagen{
+  .imagen {
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -554,9 +541,9 @@ textarea{
 
 }
 
-@media (max-width: 523px) {
+@media screen and (max-width: 523px) {
 
-  .titulo{
+  .titulo {
     padding-top: 100px;
     text-align: center;
     font-size: 70px;
@@ -567,16 +554,16 @@ textarea{
     text-align: center;
   }
 
-  .contenedor{
+  .contenedor {
     text-align: center
   }
 
-  .resumen{
+  .resumen {
     font-size: 25px;
     margin-left: 0px;
   }
 
-  .portada .boton{
+  .portada .boton {
     margin-top: 100px;
     margin-bottom: 20px;
     font-size: 25px;
@@ -586,9 +573,8 @@ textarea{
     margin-left: 0px;
   }
 
-  .background{
-    height: 800px;
-    height: 490px;
+  .background {
+    height: 540px;
   }
 
   .muy_pronto h1 {
@@ -623,7 +609,10 @@ textarea{
     font-size: 16px;
   }
 
-  .img_b , .img_a, .img_d, .img_e {
+  .img_b,
+  .img_a,
+  .img_d,
+  .img_e {
     width: 90%;
     margin-top: 0px;
   }
@@ -631,6 +620,7 @@ textarea{
   .img_a {
     margin-top: 100px;
   }
+
   .img_c {
     width: 90%;
     height: 400px;
@@ -662,7 +652,7 @@ textarea{
     font-size: 12px;
   }
 
-  .imghorizontal{
+  .imghorizontal {
     width: 100%;
     margin-top: 10px;
     margin-bottom: 10px;
