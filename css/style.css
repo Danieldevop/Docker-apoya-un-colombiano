@@ -574,7 +574,7 @@ textarea {
   }
 
   .background {
-    height: 540px;
+    height: 500px;
   }
 
   .muy_pronto h1 {
@@ -599,6 +599,10 @@ textarea {
 
   .sabias_que_margin h1 {
     font-size: 22px;
+  }
+
+  #nosotros {
+    padding: 10px;
   }
 
   #nosotros p {
