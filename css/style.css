@@ -465,7 +465,7 @@ textarea {
   .sabias_que_margin h1 {
     font-size: 30px;
   }
-  
+
 }
 
 @media screen and (max-width: 800px) {
@@ -574,8 +574,7 @@ textarea {
   }
 
   .background {
-    height: 800px;
-    height: 490px;
+    height: 540px;
   }
 
   .muy_pronto h1 {
