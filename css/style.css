@@ -587,10 +587,11 @@ textarea {
   }
 
   .imagen {
-    width: 50%;
+    width: 80%;
   }
 
   .texto_donar {
+    padding-top: 25px;
     font-size: 22px;
   }
 
@@ -674,6 +675,10 @@ textarea {
 
   .simbolo {
     padding-top: 0px;
+  }
+
+  .firma1{
+    font-size: 12px;
   }
 
   /* CATEGORIAS */
