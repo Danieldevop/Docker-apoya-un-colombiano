@@ -334,6 +334,10 @@ textarea {
 */
 
 @media (max-width: 1250px) {
+  .caterpila {
+    margin-top: 100px;
+    margin-left: 70px;
+  }
 
   .cultura {
     display: block;
@@ -381,6 +385,11 @@ textarea {
 }
 
 @media screen and (max-width: 1024px) {
+
+  .caterpila {
+    margin-top: 10px;
+    margin-left: 70px;
+  }
 
   .cultura {
     display: block;
@@ -476,6 +485,11 @@ textarea {
 
 @media screen and (max-width: 800px) {
 
+  .caterpila {
+    margin-top: 70px;
+    margin-left: 30px;
+  }
+
   .nav {
     height: auto;
   }
@@ -548,6 +562,12 @@ textarea {
 }
 
 @media screen and (max-width: 523px) {
+
+  .caterpila {
+    margin-top: 10px;
+    margin-left: 0px;
+    width: 100%;
+  }
 
   .titulo {
     padding-top: 100px;
@@ -682,7 +702,7 @@ textarea {
     padding-top: 0px;
   }
 
-  .firma1{
+  .firma1 {
     font-size: 12px;
   }
 
@@ -698,4 +718,9 @@ textarea {
     padding-top: 80px;
   }
 
+}
+
+/* ========== JAVASCRIPT INJECTION CLASSES FOR CATEGORIAS ========= */
+.caterpila img {
+  width: 60%;
 }
