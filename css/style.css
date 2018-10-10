@@ -234,12 +234,20 @@ html {
 }
 
 .caterpila {
-  margin-top: 25px;
+  margin-top: 10px;
   margin-left: 10px;
+}
+
+.margen_arriba{
+margin-top: 25px;
 }
 
 .categorias_info{
   text-align: center;
+}
+
+.categorias_info img{
+  border-radius: 20px;
 }
 
 .boton_comprar{
@@ -735,5 +743,5 @@ textarea {
 /* ========== JAVASCRIPT INJECTION CLASSES FOR CATEGORIAS ========= */
 .caterpila img {
   /* width: 60%; */
-  height: 200px;
+  height: 160px;
 }

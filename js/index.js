@@ -87,7 +87,7 @@ function b() {
   const app = document.getElementById('app')
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
-  <div>
+  <div class="wow fadeIn">
     <div class="categorias_info">
       <img src = "images/categorias/REF_1.png" ></br>
       Uniforme de ciclismo</br>
@@ -110,7 +110,8 @@ function b() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -122,7 +123,8 @@ function b() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -137,7 +139,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -149,7 +152,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -160,7 +164,8 @@ subApp.innerHTML = `
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -182,7 +187,8 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -195,7 +201,8 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -207,7 +214,8 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -221,7 +229,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -234,7 +243,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -246,7 +256,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -267,20 +278,22 @@ function d() {
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
     <div class="categorias_info">
       <img src = "images/categorias/REF_14.jpg" ></br>
-      Pechera Selección Colombia XS (Para perro)</br>
+      Pechera Selección Colombia (Perro)</br>
       Pro-PET</br>
       Zipaquirá, Cundinamarca<br/>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -293,7 +306,8 @@ function d() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -307,7 +321,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -319,7 +334,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -331,7 +347,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -354,7 +371,8 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -367,7 +385,8 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -380,7 +399,8 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -388,13 +408,14 @@ subApp.innerHTML = `
   <div>
     <div class="categorias_info">
       <img src = "images/categorias/REF_22.png" ></br>
-      Hydraterm - Agua termal, Lodo y Algas Marinas</br>
+      Agua termal, Lodo y Algas Marinas</br>
       Hydraterm</br>
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -406,7 +427,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -419,7 +441,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -441,7 +464,8 @@ function f() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -454,18 +478,20 @@ function f() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
     <div class="categorias_info">
       <img src = "images/categorias/REF_27.png" ></br>
-      Tulas - Ideales par la playa y el gimnasio</br>
+      Tulas - Ideales para playa/gimnasio</br>
       Migu</br>
       Medellín, Antioquia</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -473,13 +499,14 @@ subApp.innerHTML = `
   <div>
     <div class="categorias_info">
       <img src = "images/categorias/REF_28.png" ></br>
-      Crossbody hombre 100% Cuero- Laptop de 15</br>
+      Crossbody Laptop 100% Cuero</br>
       Balsa</br>
       Villapinzón, Cundinamarca</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -491,7 +518,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -504,7 +532,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -526,7 +555,8 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -539,7 +569,8 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -552,7 +583,8 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -566,7 +598,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -577,7 +610,8 @@ subApp.innerHTML = `
       Bucaramanga, Santander</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -589,7 +623,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -611,7 +646,8 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -623,7 +659,8 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -635,7 +672,8 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -648,7 +686,8 @@ subApp.innerHTML = `
       Manizales, Caldas</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -659,7 +698,8 @@ subApp.innerHTML = `
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -671,7 +711,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star_half</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -693,7 +734,8 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -706,7 +748,8 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -718,7 +761,8 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -732,7 +776,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -745,7 +790,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -758,7 +804,8 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -779,7 +826,8 @@ function j() {
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -791,7 +839,8 @@ function j() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
   <div>
@@ -802,7 +851,8 @@ function j() {
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -815,7 +865,8 @@ subApp.innerHTML = `
       Bogotá DC</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
-      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
     </div>
   </div>
 `
@@ -835,7 +886,8 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star_half</i>
+    <i class="material-icons">star_half</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
 <div>
@@ -847,7 +899,8 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star</i>
+    <i class="material-icons">star</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
 <div>
@@ -859,7 +912,8 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star</i>
+    <i class="material-icons">star</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
 `
@@ -874,7 +928,8 @@ subApp.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star</i>
+    <i class="material-icons">star</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
 <div>
@@ -886,7 +941,8 @@ subApp.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star</i>
+    <i class="material-icons">star</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
 <div>
@@ -897,7 +953,8 @@ subApp.innerHTML = `
     Bogotá DC</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
-    <i class="material-icons">star</i>
+    <i class="material-icons">star</i></br>
+    <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
   `
