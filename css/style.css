@@ -234,8 +234,16 @@ html {
 }
 
 .caterpila {
-  margin-top: 100px;
-  margin-left: 70px;
+  margin-top: 25px;
+  margin-left: 10px;
+}
+
+.categorias_info{
+  text-align: center;
+}
+
+.boton_comprar{
+  border-radius: 20px;
 }
 
 /*
@@ -262,7 +270,7 @@ html {
 
 .logotipo {
   display: inline-block;
-  width: 250px;
+  width: 300px;
 }
 
 .centrar {
@@ -280,7 +288,7 @@ textarea {
 }
 
 .social_icons {
-  width: 30%;
+  width: 65%;
   margin-top: 30px;
   font-size: 48px;
   cursor: pointer;
@@ -300,6 +308,10 @@ textarea {
 
 .social_icons .c:hover {
   color: #00AEE9;
+}
+
+.social_icons .d:hover {
+  color: #075E54;
 }
 
 /*
@@ -722,5 +734,6 @@ textarea {
 
 /* ========== JAVASCRIPT INJECTION CLASSES FOR CATEGORIAS ========= */
 .caterpila img {
-  width: 60%;
+  /* width: 60%; */
+  height: 200px;
 }

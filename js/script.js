@@ -1,4 +1,0 @@
-function proximamente()
-{
-  alert('Holi!');
-}
