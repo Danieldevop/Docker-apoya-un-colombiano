@@ -2,93 +2,7 @@ function a() {
   const app = document.getElementById('app')
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_1.png" ></br>
-        Uniforme de ciclismo</br>
-        Viatesport</br>
-        Bogotá DC</br>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star_half</i>
-      </div>
-    </div>
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_2.png" ></br>
-        Sneakers Archlight</br>
-        R Ô U S E</br>
-        Pereira, Risaralda<br/>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-      </div>
-    </div>
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_3.png" ></br>
-        Medias PIO PIO</br>
-        Giraffe cool</br>
-        Bogotá DC</br>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-      </div>
-    </div>
-  `
-  subApp.innerHTML = `
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_4.png" ></br>
-        Abrigo de BFW</br>
-        Lina Fernandez</br>
-        Villapinzón, Cundinamarca</br>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-      </div>
-    </div>
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_5.png" ></br>
-        Botas BOOGIES</br>
-        LZ - Le Zapatiere</br>
-        Bogotá DC</br>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-      </div>
-    </div>
-    <div>
-      <div class="categorias_info">
-        <img src = "images/categorias/REF_6.png" ></br>
-        Pijama Mujer Vestido Satín</br>
-        NÜI</br>
-        Bogotá DC</br>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-        <i class="material-icons">star</i>
-      </div>
-    </div>
-  `
-
-}
-
-//====================================================================================
-
-function b() {
-  const app = document.getElementById('app')
-  const subApp = document.getElementById('sub_app')
-  app.innerHTML = `
-  <div class="wow fadeIn">
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_1.png" ></br>
       Uniforme de ciclismo</br>
       Viatesport</br>
@@ -100,9 +14,8 @@ function b() {
       <i class="material-icons">star_half</i></br>
       <button class='success boton_comprar'>Comprar</button>
     </div>
-  </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_2.png" ></br>
       Sneakers Archlight</br>
       R Ô U S E</br>
@@ -115,7 +28,7 @@ function b() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_3.png" ></br>
       Medias PIO PIO</br>
       Giraffe cool</br>
@@ -130,7 +43,7 @@ function b() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_4.png" ></br>
       Abrigo de BFW</br>
       Lina Fernandez</br>
@@ -144,7 +57,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_5.png" ></br>
       Botas BOOGIES</br>
       LZ - Le Zapatiere</br>
@@ -157,7 +70,96 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_6.png" ></br>
+      Pijama Mujer Vestido Satín</br>
+      NÜI</br>
+      Bogotá DC</br>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  </div>
+`
+
+}
+
+//====================================================================================
+
+function b() {
+  const app = document.getElementById('app')
+  const subApp = document.getElementById('sub_app')
+  app.innerHTML = `
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_1.png" ></br>
+      Uniforme de ciclismo</br>
+      Viatesport</br>
+      Bogotá DC</br>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star_half</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  <div>
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_2.png" ></br>
+      Sneakers Archlight</br>
+      R Ô U S E</br>
+      Pereira, Risaralda<br/>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  </div>
+  <div>
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_3.png" ></br>
+      Medias PIO PIO</br>
+      Giraffe cool</br>
+      Bogotá DC</br>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  </div>
+`
+subApp.innerHTML = `
+  <div>
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_4.png" ></br>
+      Abrigo de BFW</br>
+      Lina Fernandez</br>
+      Villapinzón, Cundinamarca</br>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  </div>
+  <div>
+    <div class="categorias_info wow fadeIn">
+      <img src = "images/categorias/REF_5.png" ></br>
+      Botas BOOGIES</br>
+      LZ - Le Zapatiere</br>
+      Bogotá DC</br>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i>
+      <i class="material-icons">star</i></br>
+      <button class='success boton_comprar'>Comprar</button>
+    </div>
+  </div>
+  <div>
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_6.png" ></br>
       Pijama Mujer Vestido Satín</br>
       NÜI</br>
@@ -179,7 +181,7 @@ function c() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_7.jpg" ></br>
       Maxi Aretes (eco-amigables)</br>
       Pistilo Eco Fashion</br>
@@ -192,7 +194,7 @@ function c() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_8.png" ></br>
       Mochila Wayú</br>
       Majagura</br>
@@ -206,7 +208,7 @@ function c() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_9.png" ></br>
       Collar de Tela</br>
       La Chocoanita</br>
@@ -221,7 +223,7 @@ function c() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_10.png" ></br>
       Aretes de África - Lluvia Dorada</br>
       Chocó Tierra Mía</br>
@@ -234,7 +236,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_11.jpg" ></br>
       Aretes de Esmeralda y Perla</br>
       DAUNTLESS</br>
@@ -248,7 +250,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_12.jpg" ></br>
       Collar de Cocó</br>
       Dorely hecho a Mano</br>
@@ -271,7 +273,7 @@ function d() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_13.png" ></br>
       PetValet DAY - recreación por un día</br>
       PetValet</br>
@@ -283,7 +285,7 @@ function d() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_14.jpg" ></br>
       Pechera Selección Colombia (Perro)</br>
       Pro-PET</br>
@@ -297,7 +299,7 @@ function d() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_15.png" ></br>
       Buzo de capucha - forrado</br>
       Luxury Dogs Clothes</br>
@@ -313,7 +315,7 @@ function d() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_16.png" ></br>
       Pañoletas de Superheroes</br>
       Huellitas PetShop1</br>
@@ -326,7 +328,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_17.png" ></br>
       Cama Personalizada</br>
       Pet Paradise</br>
@@ -339,7 +341,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_18.png" ></br>
       Placa personalzada</br>
       4Pets</br>
@@ -362,7 +364,7 @@ function e() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_19.jpg" ></br>
       Mascarillla DETOX 100% NATURAL</br>
       Maleiwa S.C.</br>
@@ -376,7 +378,7 @@ function e() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_20.png" ></br>
       Locion para manchas y acné 30ml</br>
       SkinA</br>
@@ -390,7 +392,7 @@ function e() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_21.png" ></br>
       Limas de Cristal</br>
       CristalUp</br>
@@ -406,7 +408,7 @@ function e() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_22.png" ></br>
       Agua termal, Lodo y Algas Marinas</br>
       Hydraterm</br>
@@ -419,7 +421,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_23.png" ></br>
       Crema de Aceite de Cocó y Avena</br>
       Saha</br>
@@ -432,7 +434,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_24.png" ></br>
       Cera de Rosas, bálsamo labial y lubricante íntimo</br>
       Alma de Coco</br>
@@ -456,7 +458,7 @@ function f() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_25.jpg" ></br>
       Bolso & Sandalias en Caña Flecha</br>
       Punto Naranja</br>
@@ -469,7 +471,7 @@ function f() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_26.png" ></br>
       Maletín BIG JAC</br>
       JacPack</br>
@@ -483,7 +485,7 @@ function f() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_27.png" ></br>
       Tulas - Ideales para playa/gimnasio</br>
       Migu</br>
@@ -497,7 +499,7 @@ function f() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_28.png" ></br>
       Crossbody Laptop 100% Cuero</br>
       Balsa</br>
@@ -510,7 +512,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_29.png" ></br>
       Mila Weekender</br>
       JacPack</br>
@@ -523,7 +525,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_30.png" ></br>
       Loncherea Triangulo Flamingo</br>
       Doin Diseño</br>
@@ -547,7 +549,7 @@ function g() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_31.png" ></br>
       Huevera negra de cerámica</br>
       Doin Diseño</br>
@@ -560,7 +562,7 @@ function g() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_32.png" ></br>
       Set de Indivuduales - Hechos a mano</br>
       Mabary Home</br>
@@ -574,7 +576,7 @@ function g() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_33.png" ></br>
       Lampara Luminario: City</br>
       Doin Diseño</br>
@@ -590,7 +592,7 @@ function g() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_34.png" ></br>
       Sticker Bosque Niño</br>
       Doin Diseño</br>
@@ -603,7 +605,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_35.jpg" ></br>
       Sofá Valenti 3 puestos</br>
       Hecho en Colombia</br>
@@ -615,7 +617,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_36.png" ></br>
       Tapete Decorativo Multiusos</br>
       Tayrona Store</br>
@@ -638,7 +640,7 @@ function h() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_37.png" ></br>
       Vestido mamá e hija</br>
       PinkTomatina</br>
@@ -651,7 +653,7 @@ function h() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_38.jpg" ></br>
       Cuaderno de Peluche</br>
       Va and Ba</br>
@@ -664,7 +666,7 @@ function h() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_39.png" ></br>
       Tennis Azul Celeste</br>
       Jnissi Shoes</br>
@@ -679,7 +681,7 @@ function h() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_40.png" ></br>
       Triqui en Madera</br>
       ?????????</br>
@@ -691,7 +693,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_41.jpg" ></br>
       Moña para Niñas</br>
       Monstera Deliciosa</br>
@@ -703,7 +705,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_42.jpg" ></br>
       Bodys Personalizado</br>
       Monoloco</br>
@@ -726,7 +728,7 @@ function i() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_43.png" ></br>
       Reducciones de fruta</br>
       TAMSA</br>
@@ -739,7 +741,7 @@ function i() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_44.png" ></br>
       Yogurt sin almidantes ni colorantes artifiaciales</br>
       Nivis SAS</br>
@@ -753,7 +755,7 @@ function i() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_45.png" ></br>
       Chocotarjeta de Cumpleaños</br>
       La Pequeña Galería</br>
@@ -768,7 +770,7 @@ function i() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_46.png" ></br>
       Regala Sushi para Festejar</br>
       Okugai</br>
@@ -781,7 +783,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_47.png" ></br>
       Licor de Cacao</br>
       Inzinai</br>
@@ -795,7 +797,7 @@ subApp.innerHTML = `
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_48.png" ></br>
       Berenjena Asada</br>
       GreenStoreCo</br>
@@ -819,7 +821,7 @@ function j() {
   const subApp = document.getElementById('sub_app')
   app.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_49.png" ></br>
       Mensajería Instantánia</br>
       mensajerosasap.co</br>
@@ -831,7 +833,7 @@ function j() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_50.png" ></br>
       Organizador de Maquillaje en Acrilico</br>
       VanityBox</br>
@@ -844,7 +846,7 @@ function j() {
     </div>
   </div>
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_51.png" ></br>
       Señora y Señor Smith</br>
       CesarEscobar</br>
@@ -858,7 +860,7 @@ function j() {
 `
 subApp.innerHTML = `
   <div>
-    <div class="categorias_info">
+    <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_52.png" ></br>
       Intergrador de MarketPlaces</br>
       vendamasfacil.com</br>
@@ -876,11 +878,10 @@ subApp.innerHTML = `
 const app = document.getElementById('app')
 const subApp = document.getElementById('sub_app')
 app.innerHTML = `
-<div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_1.png" ></br>
     Uniforme de ciclismo</br>
-    Por: Viatesport</br>
+    Viatesport</br>
     Bogotá DC</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -889,12 +890,11 @@ app.innerHTML = `
     <i class="material-icons">star_half</i></br>
     <button class='success boton_comprar'>Comprar</button>
   </div>
-</div>
 <div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_2.png" ></br>
     Sneakers Archlight</br>
-    Por: R Ô U S E</br>
+    R Ô U S E</br>
     Pereira, Risaralda<br/>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -904,10 +904,10 @@ app.innerHTML = `
   </div>
 </div>
 <div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_3.png" ></br>
     Medias PIO PIO</br>
-    Por: Giraffe cool</br>
+    Giraffe cool</br>
     Bogotá DC</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -919,10 +919,10 @@ app.innerHTML = `
 `
 subApp.innerHTML = `
 <div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_4.png" ></br>
     Abrigo de BFW</br>
-    Por: Lina Fernandez</br>
+    Lina Fernandez</br>
     Villapinzón, Cundinamarca</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -933,10 +933,10 @@ subApp.innerHTML = `
   </div>
 </div>
 <div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_5.png" ></br>
     Botas BOOGIES</br>
-    Por: LZ - Le Zapatiere</br>
+    LZ - Le Zapatiere</br>
     Bogotá DC</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -946,10 +946,10 @@ subApp.innerHTML = `
   </div>
 </div>
 <div>
-  <div class="categorias_info">
+  <div class="categorias_info wow fadeIn">
     <img src = "images/categorias/REF_6.png" ></br>
     Pijama Mujer Vestido Satín</br>
-    Por: NÜI</br>
+    NÜI</br>
     Bogotá DC</br>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
@@ -957,4 +957,4 @@ subApp.innerHTML = `
     <button class='success boton_comprar'>Comprar</button>
   </div>
 </div>
-  `
+`
