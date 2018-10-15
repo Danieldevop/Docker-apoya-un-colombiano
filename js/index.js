@@ -12,7 +12,7 @@ function a() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   <div>
     <div class="categorias_info wow fadeIn">
@@ -24,7 +24,7 @@ function a() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -37,7 +37,7 @@ function a() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -53,7 +53,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -66,7 +66,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -78,7 +78,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -101,7 +101,7 @@ function b() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   <div>
     <div class="categorias_info wow fadeIn">
@@ -113,7 +113,7 @@ function b() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://rouse.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -126,7 +126,7 @@ function b() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://giraffe.cool/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -142,7 +142,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.linafernandez.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -155,7 +155,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.lezapatiere.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -167,7 +167,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.nui.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -190,7 +190,7 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://pistiloaccesorios.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -204,7 +204,7 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/majayuracastillo/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -217,7 +217,7 @@ function c() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://lachocoanita.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -232,7 +232,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/chocotierramia/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -246,7 +246,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://andreacardona.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -259,7 +259,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/dorely.hechoamano/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -281,7 +281,7 @@ function d() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.petvaletapp.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -295,7 +295,7 @@ function d() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.pro-pet.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -309,7 +309,7 @@ function d() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://luxurydogsco.wordpress.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -317,14 +317,14 @@ subApp.innerHTML = `
   <div>
     <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_16.png" ></br>
-      Pañoletas de Superheroes</br>
-      Huellitas PetShop1</br>
-      Barranquilla, Atlántico</br>
+      Camiseta Selección Colombia</br>
+      Dikapets</br>
+      Medellín, Antioquía</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/dikapets/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -337,7 +337,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/petparadisecali/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -350,7 +350,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/4petscolombia/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -374,7 +374,7 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/maleiwacol/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -388,7 +388,7 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.skinacolombia.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -402,7 +402,7 @@ function e() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.cristalup.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -417,7 +417,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.hydrathermcosmetics.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -430,7 +430,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/aceite_de_coco_saha/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -444,7 +444,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/alma_de_coco/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -467,7 +467,7 @@ function f() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/puntonaranjacip/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -481,7 +481,7 @@ function f() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://issuu.com/jacpack/docs/catalogo_2_jacpack__media_'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -493,7 +493,7 @@ function f() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://issuu.com/jacpack/docs/catalogo_2_jacpack__media_'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -508,7 +508,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://balsa-leather.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -521,7 +521,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://issuu.com/jacpack/docs/catalogo_2_jacpack__media_'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -535,7 +535,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.pequenagaleria.com/productos1/accesorios/loncheras/lonchera-triangulo-flamingos/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -558,7 +558,7 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.doindiseno.com/otros/huevera-negra-de-ceramica/?variant=58226363'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -572,7 +572,7 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/mabaryhome/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -586,7 +586,7 @@ function g() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.doindiseno.com/lamparas/luminaria-new-york/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -601,7 +601,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.pequenagaleria.com/productos1/decoracion/stickers/stickers-nino/sticker-bosque-nino/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -613,7 +613,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.hencolombia.com/productos.php?seccion=Mw==&cate=NA==&sub=MjU=&linea=NDk='><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -626,7 +626,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://tayronastore.com/categoria-producto/tapetes/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -649,7 +649,7 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://pinktomatina.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -662,7 +662,7 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/vaandba/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -675,7 +675,7 @@ function h() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/jnissi.shoes/?hl=es-la'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -683,13 +683,13 @@ subApp.innerHTML = `
   <div>
     <div class="categorias_info wow fadeIn">
       <img src = "images/categorias/REF_40.png" ></br>
-      Triqui en Madera</br>
-      ?????????</br>
-      Manizales, Caldas</br>
+      Mameluco</br>
+      Punto Naranja</br>
+      Armenia, Quindío</br>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://puntonaranja.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -701,7 +701,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/mdeliciosa/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -714,7 +714,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star_half</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://monoloco.com.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -737,7 +737,7 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/tributoalatierra/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -751,7 +751,7 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.facebook.com/nivisyogurt/?__xts__[0]=68.ARBHgr2bgtCuAiKUETrKDWxAMq08Kzr7_IEiH50MxZymLVzkyiPQxhf7on8tvSRQokZZfdYKuVQDhtBgUYV6a8n80pPL2x5ci_yZ_uQRKf6bexpVIo_ELqJpDneUc6g-i29u37ckO85dRh_YE8fwlyosn_vkbyjrXglEYh75OP23qZXX-8HltA&__tn__=HHH-R'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -764,7 +764,7 @@ function i() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.pequenagaleria.com/productos1/confites-y-chocolates/chocotarjetas/chocotarjeta-cumpleanos-78-gramos/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -779,7 +779,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/okugai.eventos/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -793,7 +793,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='http://www.inzunai.com/nutrici%C3%B3n.html'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -807,7 +807,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/greenstoreco/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -829,7 +829,7 @@ function j() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://mensajerosasap.co/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -842,7 +842,7 @@ function j() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/vanityboxoficial/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
   <div>
@@ -854,7 +854,7 @@ function j() {
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.instagram.com/cesarcraft/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -868,7 +868,7 @@ subApp.innerHTML = `
       <i class="material-icons">star</i>
       <i class="material-icons">star</i>
       <i class="material-icons">star</i></br>
-      <button class='success boton_comprar'>Comprar</button>
+      <a href='https://www.vendamasfacil.com/'><button class='success boton_comprar'>Comprar</button></a>
     </div>
   </div>
 `
@@ -888,7 +888,7 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star_half</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 <div>
   <div class="categorias_info wow fadeIn">
@@ -900,7 +900,7 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 </div>
 <div>
@@ -913,7 +913,7 @@ app.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 </div>
 `
@@ -929,7 +929,7 @@ subApp.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 </div>
 <div>
@@ -942,7 +942,7 @@ subApp.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 </div>
 <div>
@@ -954,7 +954,7 @@ subApp.innerHTML = `
     <i class="material-icons">star</i>
     <i class="material-icons">star</i>
     <i class="material-icons">star</i></br>
-    <button class='success boton_comprar'>Comprar</button>
+    <a href='https://www.instagram.com/viastesport/'><button class='success boton_comprar'>Comprar</button></a>
   </div>
 </div>
 `
