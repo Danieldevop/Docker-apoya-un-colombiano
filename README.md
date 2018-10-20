@@ -20,4 +20,4 @@
   categorias
 
 # Docker-apoya-un-colombiano
-*[Página web]("https://apoya-un-colombiano-zzcyckmbnn.now.sh/categorias.html")
+[Página web](https://apoya-un-colombiano-zzcyckmbnn.now.sh/categorias.html)
