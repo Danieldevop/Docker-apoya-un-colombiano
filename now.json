@@ -1,4 +1,5 @@
 {
     "name": "apoya-un-colombiano",
-    "type": "docker"
+    "type": "docker",
+    "alias": "happycart.us"
 }
