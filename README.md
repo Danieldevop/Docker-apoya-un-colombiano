@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Página Web APOYA UN COLOMBIANO
 
 # Fuentes usadas
@@ -17,3 +18,7 @@
 ## Carpeta de Imagenes y recursos
   images
   categorias
+=======
+# Docker-apoya-un-colombiano
+Docker deploy version using Now.sh on Apoya un colombiano
+>>>>>>> 3677aae10643cd2f827c4ba21b6854bad1edfa2a
