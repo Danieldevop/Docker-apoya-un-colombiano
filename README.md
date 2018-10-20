@@ -18,6 +18,6 @@
 ## Carpeta de Imagenes y recursos
   images
   categorias
-=======
+
 # Docker-apoya-un-colombiano
-Docker deploy version using Now.sh on Apoya un colombiano
+*[Página web]("https://apoya-un-colombiano-zzcyckmbnn.now.sh/categorias.html")
